@@ -57,16 +57,16 @@ public class VisibleNodes {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(new TreeSolution().solution(new Tree(5,
+		System.out.println(new VisibleNodes ().solution(new Tree(5,
 				new Tree(3, new Tree(20, null, null), new Tree(21, null, null)),
-				new Tree(10, new Tree(1, null, null), null))));
+				new Tree(10, new Tree(1, null, null), null)))); // 4
 
-		System.out.println(new TreeSolution().solution(new Tree(8,
+		System.out.println(new VisibleNodes ().solution(new Tree(8,
 				new Tree(2, new Tree(8, null, null), new Tree(7, null, null)),
-				new Tree(6, null, null))));
+				new Tree(6, null, null)))); //2
 
-		System.out.println(new TreeSolution().solution(new Tree(11,
+		System.out.println(new VisibleNodes ().solution(new Tree(11,
 				new Tree(2, new Tree(8, null, null), new Tree(7, null, null)),
-				new Tree(6, null, null))));
+				new Tree(6, null, null)))); //1
 	}
 }
